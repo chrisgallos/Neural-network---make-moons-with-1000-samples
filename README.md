@@ -3,8 +3,11 @@ This script implements a small fully-connected neural network from scratch using
 
 What the code does (quick tour)
 1.	Data generation
+
  o	Creates a 2D binary classification dataset with sklearn.datasets.make_moons (1000 samples, noise=0.2).
+ 
  o	Labels y are reshaped to column vectors for easier matrix math.
+ 
  o	(A commented-out normalization line is present if you want to scale inputs.)
 
 2.	Activation functions
